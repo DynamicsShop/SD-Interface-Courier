@@ -1,5 +1,17 @@
 ## SD Interface Courier Releases
 
+### 3.0.6
+
+#### Enhancements
+
+- Added paperless trading for DHL to the product. 
+
+#### Bug Fixes
+
+- Fixed a gross weight error raised during creation of a label for the DHL courier service. 
+
+- A fix was made to resolve an xml error raised when parsing the request. This was due to a element exceeding the maximum length. 
+
 ### 3.0.5
 
 #### Enhancements
