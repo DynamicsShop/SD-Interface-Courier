@@ -1,5 +1,215 @@
 ## SD Interface Courier Releases
 
+### 4.0.0
+
+#### Enhancements
+
+- BCv20 App - Created a new AL extension app based on latest release of the C/AL code.  
+
+- BCv20 App - A change was made to allow for two email notification points in SD Interface Courier - one at Order Booked and another at Order Shipped. 
+
+- BCv20 App - A new SD Interface Courier Setup table and card were created with import/export definition actions and data retention fields. 
+
+- BCv20 App - The API Request logging code was reworked and improved. 
+
+- BCv20 App - A Courier Service Providers Definition File (json file) was created. 
+
+- BCv20 App - Functionality was created to allow conversion of PDF files to Image files such as png, jpeg etc. 
+
+- BCv20 App - Any remaining courier specific fields were removed from the SD Interface Courier Setup table and placed in courier specific tables. 
+
+- BCv20 App - Some SD Interface Courier tables and fields were renamed. Setup was renamed to Courier Services. 
+
+- BCv20 App - SD Interface Courier was prepared for AppSource submission.  
+
+- BCv20 App - The C/AL Code Base was ported from C/AL to AL BCv17 CU3. 
+
+- BCv20 App - A barcode API was added to the SD Interface Courier Manual Label report. 
+
+- BCv20 App - DHL Paperless Trading was added to the product. 
+
+- BCv20 App - A new All Active cue was added to the Courier Booking Activity page.  
+
+- BCv20 App - The Courier Services Setup Card was reworked. Fields were grouped together. 
+
+- BCv20 App - Changes were made to the Courier Service Communication Details FastTab on the SD Interface Courier Setup page. 
+
+- BCv20 App - The confirmation email used in the SD Interface Courier emailing functionality was changed. 
+
+- BCv20 App - On the Booking Shipment page the caption of the View Sales Order action was changed to Ship Sales Order. 
+
+- BCv20 App - The fields in the Booking Archive page were reordered. A freeze frame was added to the page. 
+
+- BCv20 App - Created a Courier Activity report. 
+
+- BCv20 App - The More Information action was removed from the GLS menu group on the Courier Service Card. 
+
+- BCv20 App - The Completely Shipped field was removed from the Booking History list. 
+
+- BCv20 App - A number of actions were missing from the Booking Archive page. These actions were resurfaced. 
+
+- BCv20 App - The Download DHL Invoice action on the Booking History page was moved to the Tracking menu group as per the layout of actions in the Booking Shipment page. 
+
+- BCv20 App - The Booking Tracking number on the Booking Shipment and Booking History List was reinstated. 
+
+- BCv20 App - A small typo in the Scurri Carriers and Services page was fixed. 
+
+- BCv20 App - In the Courier Service Card the Scurri Services action was placed before the Scurri Warehouse action to reflect order of use during setup. 
+
+- BCv20 App - The Edit DHL Worldwide action text in the DHL XML Service FastTab was removed to keep FastTabs uncluttered.  
+
+- BCv20 App - The User Id field on the Courier Services Card was updated to User ID. 
+
+- BCv20 App - An Post Scurri Configuration was added to the Definition file. 
+
+- BCv20 App - The Service Id field was renamed to Service Entry No. on the SD Interface Courier pages. 
+
+- BCv20 App - The Courier Service Provider column in the SD Interface Couriers Services list was updated to Configuration as per the Courier Services Card. 
+
+- BCv20 App - Minor visual changes were made to the Courier Activity Report. 
+
+- BCv20 App - The SD Interface Courier Activity Report was surfaced on the SD Interface Courier Services List and Card. 
+
+- BCv20 App - The layout of fields in the Service Setup FastTab on the Courier Service Card was changed. 
+
+- BCv20 App - Certain fields were promoted to FastTabs in the Courier Service Setup card. 
+
+- BCv20 App - The External Document No. column was repositioned on the Booking Errors page. 
+
+- BCv20 App - The External Document No. was added to the Booking History page. 
+
+- BCv20 App - The fields in the Booking Shipment page were reordered. 
+
+- BCv20 App - The message displayed when a user chooses to Skip and Archive a Booking Entry was changed. 
+
+- BCv20 App - To keep the pages streamlined any standard notes and link actions were removed from the SD Interface Courier pages. 
+
+- BCv20 App - The Usage Category property was added to the pages for the Tell Me search. 
+
+- BCv20 App - Permission Sets were created for the App. 
+
+- BCv20 App - The latest version of the ISV About Page was added to the App. 
+
+- BCv20 App - The SD Interface Courier objects were renamed to our ISV standards. 
+
+- BCv20 App - A parcel was booked with TEST GLS XML but the email from SD Interface Courier did not contain the Tracking Number. 
+
+- BCv20 App - The message displayed when an order does not fulfil free shipment was updated. 
+
+- BCv20 App - The columns in the SD Interface Courier Email Confirmations List were rearranged. 
+
+- BCv20 App - The Inherit from Company action in the Consignor Details CardPart was recaptioned and placed above the Company field. 
+
+- BCv20 App - The No. field on the Booking Card was recaptioned back to Order No. 
+
+- BCv20 App - For Manual Service Types on the Courier Service Card the mandatory check on the Tracking URL field was removed. 
+
+- BCv20 App - Changes were made to the captions and placement of Actions in the Booking Pending List. 
+
+- BCv20 App - Small typo corrections were made to the Descriptions of Test Courier Service Configurations in the Service Definition file. 
+
+- BCv20 App - Changes were made to Actions and to Action Menu Groups in the SD Courier Service Card. 
+
+- BCv20 App - The name of the Update Services action on the SD Interface Courier Services to Populate Courier Services was changed to be more reflective of what the action does. 
+
+- BCv20 App - A KPI FastTab was added to the SD Interface Courier Setup Card. 
+
+- BCv20 App - The Default Email Account field in the General FastTab of the SD Interface Courier Setup card was promoted. 
+
+- BCv20 App - Changes were made to the captions and ToolTips in the Email Settings Card. 
+
+- BCv20 App - Fields in the Courier Service Card were renamed for clarity and other minor changes were made to the Courier Services Card. 
+
+- BCv20 App - To differentiate between test and live Service Providers, a change was made to display test Service Providers in red. 
+
+- BCv20 App - The  ISO Country/Region Mapping action on the Courier Services list was removed. 
+
+- BCv20 App - The ToolTip on the Update Services action in the SD Interface Courier Services List was updated. 
+
+- BCv20 App - A small typo on the name of the Page SD Interface Courier Services was fixed. 
+
+- BCv20 App - A field caption and ToolTip were updated on the SD Interface Courier Setup Card. 
+
+- Bcv20 App - A new SD Interface Courier Setup tables was created with default email account and Data Retention FastTab to define how long to keep API Logs, Email Logs, Labels, and PLT Sales Documents stored in the database. 
+
+- BCv20 App - The Product Activation Page was updated to point to the new subscription page URL. 
+
+- BCv20 App - ToolTips were updated to look at our new website. 
+
+- BCv20 App - The latest ISV Licence Controller was added to SD Interface Courier. 
+
+- BCv20 App - The existing C/AL build of SD Interface Courier was converted to AL extensions. 
+
+- BCv20 App - A number of events were published before json file is written to the payload to allow for modifications if needed to book parcels with Couriers through the Scurri API. 
+
+- BCv20 App - The DHL schema was updated to version 10. 
+
+- BCv20 App - The Assisted Setup action was removed from the SD Interface Courier Setup as a Definition File for SD Interface Courier is automatically installed on install of the App. 
+
+- BCv20 App - The Allow HTTPClient Request option for SD Interface Courier is set to on by default on install of the product. 
+
+- BCv20 App - A control addin was added to allow conversion of PDF files to Image files (png,jpeg etc). 
+
+- BCv20 App - Code was reviewed to ensure that our ISV Licence Expiry Date prompts with 5 days to go was not stopping functionality. 
+
+- BCv20 App - Merged changes to fix issue where Terms of Trade was not populating for DHL Worldwide. 
+
+- BCv20 App - SMTP Mail was replaced with the Dynamics 365 Business Central SMTP Connector Module. 
+
+#### Bug Fixes
+
+- BCv20 App - An error was raised when booking a Scurri Fastway parcel. This was due to an issue in the Definition file. This was fixed. 
+
+- BCv20 App - Booking parcels with DHL was not updating the package tracking number on the sales order as per manual and GLS bookings. 
+
+- BCv20 App - In the Booking Pending List choosing Cancel correctly removed the Booking Entry from the list but then all the Booking Entries with all Booking Status were displayed in the Booking Pending list. 
+
+- BCv20 App - If a Manual Courier Service was disabled after Booking Entries were created for the Courier, the Booking Entry was booked but no labels was created. A change was made to raise a message to prevent the user booking a parcel when the Manual Courier Service is disabled.  
+
+- BCv20 App - The Label Type in the Configuration file for Scurri Fastway was changed as an error was raised on download of the label. 
+
+- BCv20 App - Choosing to Cancel Bookings in the Booking Pending list was raising and error. 
+
+- BCv20 App - Choosing the Cancel action in the Booking Pending list for a record created an entry in the Booking History table with a status of cancelled. 
+
+- BCv20 App - Choosing to Skip and Archive one record in the Booking Pending List caused all records in the Booking History to be archived. 
+
+- BCv20 App - For the GLS INT configuration the attached document file was not opening. 
+
+- BCv20 App - An error was raised on the Courier Service Card when choosing the Scurri Carrier Service Code field or the Courier Services field.  
+
+- BCv20 App - Emails were sent on original shipment of the order and then again on ship and invoice of the order. 
+
+- BCv20 App - When the SD Interface Courier Services list was opened, not all the Test Service Configurations were set to a red font. 
+
+- BCv20 App - Fixed an issue where the Customer Company Contact email was being picked up. Now if the Recipient Email on the Courier Service Email Settings is set to Document or Document&Specific pick up the Sell-to Email on the Sales Header. 
+
+- BCv20 App - On resetting a booking error, the Confirmation Email field on the Booking Card was continually being appended to. 
+
+- BCv20 App - After choosing the Reset Error action when an error was raised when booking a parcel, an error is raised on choosing to open the Booking Card to rebook the order. 
+
+- BCv20 - The Skip and Archive function on the Booking Pending page was not moving the booking entry record to the Archive table. 
+
+- BCv20 App - The prompt that a charge should be applied to the order was not being raised when the Test for Courier Charge field was switched on and the parcels were under the Min Free Charge Amount. 
+
+- BCv20 App - An error was raised when choosing the Your Capabilities action in the GLS menu group on the Courier Service Card.  
+
+- BCv20 App - Fully Shipped Sales Orders were still showing in the Booking Shipment List and not moving to Booking History. This was fixed. 
+
+- BCv20 App - Fixed an issue where if an email template did not have an email body defined then the email body was being hardcoded. Now if the email body is not defined, the email is not generated. 
+
+- BCv20 App - The Shipping Instructions entered on the Courier Service Card for a Service Type of Manual were not picked up and displayed on the Manual Courier Booking Card. 
+
+- BCv20 App - In the Consignor Details Card an error was raised when choosing the Page action and then the Next action. 
+
+- BCv20 App - The Product Page link in the About Page was directing to an incorrect page. 
+
+- BCv20 App - The Product Activation page was changed to disable the Activate button unless a Product Key is filled in. This was done to avoid an error being raised when Activate was chosen and the Product Key had no value. 
+
+- BCv20 App - Layout changed and functionality changes were made to the DHL FastTab in the Courier Services Card. 
+
+- BCv20 App - Fixed an issue where SD Interface Courier did not populate the weight field on a Fastway label if the parcel had more than one item. 
+
 ### 3.0.6
 
 #### Enhancements
