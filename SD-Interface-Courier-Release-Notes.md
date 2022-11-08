@@ -1,5 +1,21 @@
 ## SD Interface Courier Releases
 
+### 4.0.1
+
+#### Enhancements
+
+- BCv21 App - The Unit Price Excluding VAT was added to the Booking Entry Card for SD Interface Courier's calls to the Courier Services Commercial Invoices API functionality.
+
+- BCv21 App - The Licence Expiry message/notification was updated to display the App Name as part of the message.
+
+- BCv21 App - A page was created to display all the Simply Dynamics Apps and subscription details for the tenant.
+
+- BCv21 App - The Licence Message displayed on first install of SD Interface Courier was changed to prompt the user to activate a free trial.
+
+#### Bug Fixes
+
+- BCv21 App - A fix was made to the code for licence key checks on the SD Interface Courier Role Centre. 
+
 ### 4.0.0
 
 #### Enhancements
