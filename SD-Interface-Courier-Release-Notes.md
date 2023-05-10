@@ -1,5 +1,29 @@
 ## SD Interface Courier Releases
 
+### 5.0.0
+
+#### Enhancements
+
+- AppSource App - Direct integration to DPD Domestic for Service Options 1, 2 and 5 was added to SD Interface Courier.
+
+- AppSource App - A Booking Form was created for the DPD Courier Implementation.
+
+- AppSource App - Changes were made to the Courier Service Card to display the necessary fields for DPD integration.
+
+#### Bug Fixes
+
+- AppSource App - An intermittent error that "The changes to the SDY UC Booking Entry record cannot be saved because some information on the page is not up-to-date." was raised when Booking Parcels. This was fixed.  
+
+- AppSource App - The Skip and Archive action in the Booking Pending list was adding the orders to the Archive but entries were being brought back in when the Check for New Entries action was chosen.
+
+- AppSource App - Choosing the Track Booking action in the Booking Shipment list for a parcel booked with DPD raised a HTTP error.
+
+- AppSource App - For DHL Worldwide a fix was made to take the  Sales Line Amount Excluding VAT and divide by the Sales Line Quantity to get a calculated Value Excluding VAT that is displayed on the DHL Worldwide Lines on the DHL Booking Entry Page in the Unit Price Excl. VAT field and is passed to DHL for Commercial Invoices. 
+
+- AppSource App - When adding a new Courier Service and choosing to enable the Courier Service, if consignment details were not entered, a message was raised to prompt of same, and the value in the DPD Basic Token field was then cleared. This was fixed.
+
+- AppSource App - A change was made to the ISV Licence Notification procedure in SD Interface Courier to fix an issue that would raise an error when the language is changed from English to another language.
+
 ### 4.0.1
 
 #### Enhancements
