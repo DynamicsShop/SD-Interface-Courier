@@ -4,13 +4,15 @@
 
 #### Enhancements
 
-- AppSource App - Allow for errors with orders sent for booking to be copied to a blob field so the reason for the error in the order can be viewed easily.
+- AppSource App - Functionality was added to allow for situations where the errors raised on orders sent for booking are copied to a blob field so the error detail can be viewed.
 
 - AppSource App - A change was made to limit the SD ISV Tenant Subscriptions page to display just our SD ISV AppSource Apps and not other SD PTE Apps.
 
 #### Bug Fixes
 
 - AppSource App - When selecting SD Interface Courier activity pages in the Tell Me/Search in a BCv22 environment, the activity pages were hanging.
+
+- AppSource App - The SD Interface Courier Setup card was hanging in a BCv22 environment if the KPI FastTab was minimised on opening the page. 
 
 ### 5.0.0
 
