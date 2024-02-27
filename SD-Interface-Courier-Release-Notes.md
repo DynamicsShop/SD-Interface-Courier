@@ -1,5 +1,21 @@
 ## SD Interface Courier Releases
 
+### 6.0.0
+
+#### Enhancements
+
+- AppSource App - New functionality was added to give the option to users to print the Courier Labels from Azure Blob Storage.
+
+- AppSource App - New functionality was added to give the option to automate the Courier Booking Process. A new procedure, AutoBookEntry, was created to allow booking of a sales order without showing the booking entry page. The AutoBookEntry procedure can be called at the shipping stage if required and can also be called from outside of SD Interface Courier.
+
+- AppSource App - The Ship to Phone No on the DPD Booking Card was not being populated by the phone number on the order. The Ship-to Phone No on the Booking Card is now being populated from the Sell-to Phone from the Sales Order.
+
+- AppSource App - A default Gross Weight field was added to the Courier Service Card for use when Auto Booking is turned on.
+
+- AppSource App - The Links in the About Page were updated.
+
+- AppSource App - The logo in the SD Interface Courier App was updated to use our new logo.
+
 ### 5.0.1
 
 #### Enhancements
