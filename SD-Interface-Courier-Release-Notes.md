@@ -1,10 +1,12 @@
 ## SD Interface Courier Releases
 
-### 6.0.1
+### 6.0.2
 
 #### Enhancements
 
 - AppSource App - Enhancements were made to the Get New Booking Entries functionality.
+
+### 6.0.1
 
 #### Bug Fixes
 
