@@ -1,5 +1,15 @@
 ## SD Interface Courier Releases
 
+### 6.0.1
+
+#### Enhancements
+
+- AppSource App - Enhancements were made to the Get New Booking Entries functionality.
+
+#### Bug Fixes
+
+- AppSource App - Fixed an issue where updating the Sales Order did not update the Courier Service ID. 
+
 ### 6.0.0
 
 #### Enhancements
