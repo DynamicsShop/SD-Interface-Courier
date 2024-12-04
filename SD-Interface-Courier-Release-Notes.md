@@ -1,5 +1,19 @@
 ## SD Interface Courier Releases
 
+### 6.0.3
+
+#### Enhancements
+
+- AppSource App - The Skip and Archive action was surfaced on the SD Interface Courier Booking Errors list.
+
+- AppSource App - A change was made to the licence expiry notification. The logic for checking for expiry dates was reworked.
+
+- AppSource App - Enhancements were made to the App Request Subscription page.
+
+- AppSource App - Additional phrases were added as search phrases for the SD Interface Courier pages.
+
+- AppSource App - ToolTips were updated in the About, Product Activation, and Tenant Subscription pages.
+
 ### 6.0.2
 
 #### Enhancements
