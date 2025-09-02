@@ -4,6 +4,8 @@
 
 #### Enhancements
 
+- AppSource App - A minor modification was made to the Scurri Integration Code Unit.
+
 - AppSource App - A new Licence Activation and Setup Wizard was created to guide users through new installations of the app.
 
 - AppSource App - The notification to activate the app, displayed on a fresh install of SD Interface Courier, was added to the standard Business Central role centres.
@@ -719,5 +721,6 @@
 #### Enhancements
 
 - Initial build of objects.
+
 
 
